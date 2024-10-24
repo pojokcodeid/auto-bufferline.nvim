@@ -26,3 +26,9 @@ return {
 ```lua
 require("auto-bufferline.configs.utils").bufremove()
 ```
+
+- Close Buffer By Id
+
+```lua
+require("auto-bufferline.configs.utils").bufremove(bufid)
+```
