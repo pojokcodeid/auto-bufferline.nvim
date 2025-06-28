@@ -49,16 +49,14 @@ M.config = {
 			{
 				filetype = "NvimTree",
 				text = "File Explorer",
-				-- highlight = "Directory",
-				highlight = "TabLine",
+				highlight = "Directory",
 				text_align = "left",
 				padding = 1,
 			},
 			{
 				filetype = "lazy",
 				text = "Lazy",
-				-- highlight = "PanelHeading",
-				highlight = "TabLine",
+				highlight = "PanelHeading",
 				padding = 1,
 			},
 		},
@@ -71,7 +69,6 @@ M.config = {
 		enforce_regular_tabs = true,
 		always_show_bufferline = true,
 	},
-	--[[
 	highlights = {
 		fill = {
 			fg = { attribute = "fg", highlight = "TabLine" },
@@ -94,8 +91,8 @@ M.config = {
 			bg = { attribute = "none", highlight = "TabLine" },
 		},
 		tab_selected = {
-			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "bg", highlight = "TabLine" },
+			fg = { attribute = "fg", highlight = "Normal" },
+			bg = { attribute = "bg", highlight = "Normal" },
 		},
 		tab = {
 			fg = { attribute = "fg", highlight = "TabLine" },
@@ -103,12 +100,12 @@ M.config = {
 		},
 		tab_close = {
 			-- fg = {attribute='fg',highlight='LspDiagnosticsDefaultError'},
-			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "bg", highlight = "TabLine" },
+			fg = { attribute = "fg", highlight = "TabLineSel" },
+			bg = { attribute = "bg", highlight = "Normal" },
 		},
 		duplicate_selected = {
-			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "bg", highlight = "TabLine" },
+			fg = { attribute = "fg", highlight = "TabLineSel" },
+			bg = { attribute = "bg", highlight = "TabLineSel" },
 			underline = true,
 		},
 		duplicate_visible = {
@@ -127,8 +124,8 @@ M.config = {
 			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		modified_selected = {
-			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "bg", highlight = "TabLine" },
+			fg = { attribute = "fg", highlight = "Normal" },
+			bg = { attribute = "bg", highlight = "Normal" },
 		},
 		modified_visible = {
 			fg = { attribute = "fg", highlight = "TabLine" },
@@ -155,15 +152,6 @@ M.config = {
 			fg = { attribute = "fg", highlight = "LspDiagnosticsDefaultHint" },
 			bg = { attribute = "bg", highlight = "Normal" },
 		},
-		hint = {
-			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "bg", highlight = "TabLine" },
-		},
-		hint_visible ={
-			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "bg", highlight = "TabLine" },
-		},
 	},
-	]]--
 }
 return M
