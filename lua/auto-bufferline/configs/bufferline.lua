@@ -69,6 +69,7 @@ M.config = {
 		enforce_regular_tabs = true,
 		always_show_bufferline = true,
 	},
+	--[[
 	highlights = {
 		fill = {
 			fg = { attribute = "fg", highlight = "TabLine" },
@@ -153,5 +154,6 @@ M.config = {
 			bg = { attribute = "bg", highlight = "Normal" },
 		},
 	},
+	]]--
 }
 return M
