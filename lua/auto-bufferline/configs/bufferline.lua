@@ -93,8 +93,8 @@ M.config = {
 			bg = { attribute = "none", highlight = "TabLine" },
 		},
 		tab_selected = {
-			fg = { attribute = "fg", highlight = "Normal" },
-			bg = { attribute = "bg", highlight = "Normal" },
+			fg = { attribute = "fg", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		tab = {
 			fg = { attribute = "fg", highlight = "TabLine" },
@@ -102,12 +102,12 @@ M.config = {
 		},
 		tab_close = {
 			-- fg = {attribute='fg',highlight='LspDiagnosticsDefaultError'},
-			fg = { attribute = "fg", highlight = "TabLineSel" },
-			bg = { attribute = "bg", highlight = "Normal" },
+			fg = { attribute = "fg", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		duplicate_selected = {
-			fg = { attribute = "fg", highlight = "TabLineSel" },
-			bg = { attribute = "bg", highlight = "TabLineSel" },
+			fg = { attribute = "fg", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
 			underline = true,
 		},
 		duplicate_visible = {
@@ -126,8 +126,8 @@ M.config = {
 			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		modified_selected = {
-			fg = { attribute = "fg", highlight = "Normal" },
-			bg = { attribute = "bg", highlight = "Normal" },
+			fg = { attribute = "fg", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		modified_visible = {
 			fg = { attribute = "fg", highlight = "TabLine" },
