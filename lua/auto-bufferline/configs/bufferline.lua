@@ -155,33 +155,21 @@ M.config = {
 		-- separators
 		separator = { 
 			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "bg", highlight = "TabLine" },
+			bg = { attribute = "none", highlight = "TabLine" },
 		},
 		separator_visible = { 
 			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "bg", highlight = "TabLine" },
+			bg = { attribute = "none", highlight = "TabLine" },
 		},
 		separator_selected = {
 			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "bg", highlight = "TabLine" },
+			bg = { attribute = "none", highlight = "TabLine" },
 		},
 		offset_separator = {
 			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "bg", highlight = "TabLine" },
+			bg = { attribute = "none", highlight = "TabLine" },
 		},
-		-- close buttons
-		close_button = { 
-			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "bg", highlight = "TabLine" }, 
-		},
-		close_button_visible = {
-			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "bg", highlight = "TabLine" },
-		},
-		close_button_selected = {
-			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "bg", highlight = "TabLine" },
-		},
+		
 	},
 }
 return M
