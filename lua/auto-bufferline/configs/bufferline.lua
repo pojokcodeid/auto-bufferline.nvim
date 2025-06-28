@@ -154,6 +154,14 @@ M.config = {
 			fg = { attribute = "fg", highlight = "LspDiagnosticsDefaultHint" },
 			bg = { attribute = "bg", highlight = "Normal" },
 		},
+		hint = {
+			fg = { attribute = "fg", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
+		},
+		hint_visible ={
+			fg = { attribute = "fg", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
+		},
 	},
 }
 return M
