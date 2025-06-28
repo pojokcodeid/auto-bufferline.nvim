@@ -72,23 +72,23 @@ M.config = {
 	highlights = {
 		fill = {
 			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "none", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		background = {
 			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "none", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		buffer_visible = {
 			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "none", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		close_button = {
 			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "none", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		close_button_visible = {
 			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "none", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		tab_selected = {
 			fg = { attribute = "fg", highlight = "Normal" },
@@ -138,7 +138,7 @@ M.config = {
 		},
 		trunc_marker = {
 			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "none", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		separator_selected = {
 			fg = { attribute = "bg", highlight = "Normal" },
