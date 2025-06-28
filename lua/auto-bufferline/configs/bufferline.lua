@@ -49,14 +49,16 @@ M.config = {
 			{
 				filetype = "NvimTree",
 				text = "File Explorer",
-				highlight = "Directory",
+				-- highlight = "Directory",
+				highlight = "TabLine",
 				text_align = "left",
 				padding = 1,
 			},
 			{
 				filetype = "lazy",
 				text = "Lazy",
-				highlight = "PanelHeading",
+				-- highlight = "PanelHeading",
+				highlight = "TabLine",
 				padding = 1,
 			},
 		},
