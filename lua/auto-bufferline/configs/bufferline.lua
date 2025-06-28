@@ -136,10 +136,6 @@ M.config = {
 			fg = { attribute = "bg", highlight = "TabLine" },
 			bg = { attribute = "bg", highlight = "TabLine" },
 		},
-		devicons ={
-			fg = { attribute = "bg", highlight = "TabLine" },
-			bg = { attribute = "bg", highlight = "TabLine" },
-		},
 		trunc_marker = {
 			fg = { attribute = "fg", highlight = "TabLine" },
 			bg = { attribute = "none", highlight = "TabLine" },
