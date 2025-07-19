@@ -79,23 +79,23 @@ M.config = {
 	highlights = {
 		fill = {
 			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "none", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		background = {
 			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "none", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		buffer_visible = {
 			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "none", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		close_button = {
 			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "none", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		close_button_visible = {
 			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "none", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		tab_selected = {
 			fg = { attribute = "fg", highlight = "Normal" },
@@ -145,7 +145,7 @@ M.config = {
 		},
 		trunc_marker = {
 			fg = { attribute = "fg", highlight = "TabLine" },
-			bg = { attribute = "none", highlight = "TabLine" },
+			bg = { attribute = "bg", highlight = "TabLine" },
 		},
 		separator_selected = {
 			fg = { attribute = "bg", highlight = "Normal" },
@@ -159,6 +159,24 @@ M.config = {
 			fg = { attribute = "fg", highlight = "LspDiagnosticsDefaultHint" },
 			bg = { attribute = "bg", highlight = "Normal" },
 		},
+		-- separators
+		separator = { 
+			fg = { attribute = "fg", highlight = "TabLine" },
+			bg = { attribute = "none", highlight = "TabLine" },
+		},
+		separator_visible = { 
+			fg = { attribute = "fg", highlight = "TabLine" },
+			bg = { attribute = "none", highlight = "TabLine" },
+		},
+		separator_selected = {
+			fg = { attribute = "fg", highlight = "TabLine" },
+			bg = { attribute = "none", highlight = "TabLine" },
+		},
+		offset_separator = {
+			fg = { attribute = "fg", highlight = "TabLine" },
+			bg = { attribute = "none", highlight = "TabLine" },
+		},
+		
 	},
 }
 return M
