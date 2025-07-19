@@ -54,6 +54,13 @@ M.config = {
 				padding = 1,
 			},
 			{
+				filetype = "NeoTree",
+				text = "File Explorer",
+				highlight = "Directory",
+				text_align = "left",
+				padding = 1,
+			},
+			{
 				filetype = "lazy",
 				text = "Lazy",
 				highlight = "PanelHeading",
