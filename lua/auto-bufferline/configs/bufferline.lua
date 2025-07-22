@@ -57,7 +57,7 @@ M.config = {
         filetype = "neo-tree",
         text = "File Explorer",
         highlight = "Directory",
-        text_align = "center",
+        text_align = "left",
         padding = 1,
       },
       {
